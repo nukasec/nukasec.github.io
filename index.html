@@ -1,39 +1,29 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <title>socketwrench.io</title>
-</head>
-<body>
-    <div class="grid-2">
-        <div class="section-1">
-            <img src="bugwrenches-white.png" style="width:150px; hiehgt:150px;">
-	    <h2>Hello, I'm Tyler.</h2>
-	    <p>MI, USA</p>
-	    <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/s0cketwrench"><i class="fab fa-twitter"></i></a>
-	    <!---<a target="_blank" rel="noopener noreferrer" href="#"><i class="fab fa-linkedin"></i></a>--->
-	    <a target="_blank" rel="noopener noreferrer" href="https://github.com/s0cketwrench"><i class="fab fa-github"></i></a>
-        </div>
-	<div class="section-2">
-            <h2>About</h2>
-            <p>I do IT and security stuff.</p>
-	    <p>I rode a camel in the Arabian desert once.</p>
-	    <p>If I am not hunting bugs or writing code -</p>
-	    <p> I am probably in the garage.</p> 
-                       
-	    <h2>Projects</h2>
-            <a target="_blank" rel="noopener noreferrer" href="https://taskit.herokuapp.com">TaskIT</a>
-            <a target="_blank" rel="noopener noreferrer" href="https://github.com/nukasec/weaponize">Weaponize</a>
-            <a target="_blank" rel="noopener noreferrer" href="https://github.com/nukasec/evader">Evader</a>
-            <a target="_blank" rel="noopener noreferrer" href="https://github.com/nukasec/writeups">CTF Writeups</a>
 
-	    <h2>Contact</h2>
-            <p>s0cketwrench@protonmail.com</p>
-        </div>
+<head>
+    <title>s0cketwrench.io</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <img id="img/socketOS" src="socketOS.png" class="center">
+
+    <div class="terminalCont">
+        <div id="terminalResultsCont"></div>
+        <form>
+            <input id="terminalTextInput" type="text" placeholder="ENTER COMMAND" autocomplete="off"></input>
+        </form>
     </div>
+
+	
 </body>
+
+<footer>
+    <script src="src/terminal.js"></script>
+</footer>
+
 </html>
