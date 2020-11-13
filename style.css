@@ -5,11 +5,6 @@ body,html {
     overflow-x:hidden;
 }
 
-.center {
-    display: block;
-    margin: 0 auto 0 auto;
-}
-
 .terminalCont{
   background: black;
   font-family: 'Roboto Mono', monospace;
@@ -32,7 +27,7 @@ body,html {
    
 #terminalResultsCont{
     width:100%;
-    height: 600px;
+    height:65vh;
     padding: 12px;
     overflow-y: auto;
     resize: none;
@@ -69,7 +64,10 @@ body,html {
 }
 
 #socketOS {
-    margin-top: 2%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1vh auto 0 auto;
 }
 
 #typingText {
