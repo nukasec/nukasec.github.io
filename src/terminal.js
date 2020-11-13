@@ -58,6 +58,15 @@ document.addEventListener('DOMContentLoaded', function() {
     addTextToResults(whoAmI);
   }
 
+  var postProjects = function(){
+    var projects = [
+      "&nbsp; TaskIT (<a target='_blank' rel='noopener noreferrer' href='https://taskit.herokuapp.com'>https://taskit.herokuapp.com</a>): Ticket Management System built with Python & Flask",
+      "&nbsp; Weaponize (<a target='_blank' rel='noopener noreferrer' href='https://github.com/s0cketwrench/weaponize'>https://github.com/s0cketwrench/weaponize</a>): Outfit an Ubuntu 20.04 server with a bug bounty toolset",
+      "&nbsp; Writeups (<a target='_blank' rel='noopener noreferrer' href='https://github.com/s0cketwrench/writeups'>https://github.com/s0cketwrench/writeups</a>): A collection of writeups for miscellaneous hacking CTF's"
+    ].join('</br>');
+    addTextToResults(projects)
+  }
+
   var postToolsList = function(){
     var toolKeywords = [
       "&nbsp; open [domain] (ex. open s0cketwrench.github.io)",
@@ -129,6 +138,11 @@ document.addEventListener('DOMContentLoaded', function() {
         postWhoAmI();
         break;
 
+      case "projects":
+        clearInput();
+        postProjects();
+        break;
+
       case "youtube":
         clearInput();
         addTextToResults("Type youtube + something to search for.");
@@ -139,11 +153,11 @@ document.addEventListener('DOMContentLoaded', function() {
         addTextToResults("Type google + something to search for.");
         break;
 
-        case "wiki":
-        case "wikipedia":
-          clearInput();
-          addTextToResults("Type wiki + something to search for.");
-          break;  
+      case "wiki":
+      case "wikipedia":
+        clearInput();
+        addTextToResults("Type wiki + something to search for.");
+        break;  
 
       case "time":
         clearInput();
