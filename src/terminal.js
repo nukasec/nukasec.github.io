@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var projects = [
       "&nbsp; TaskIT (<a target='_blank' rel='noopener noreferrer' href='https://taskit.herokuapp.com'>https://taskit.herokuapp.com</a>): Ticket Management System built with Python & Flask",
       "&nbsp; Weaponize (<a target='_blank' rel='noopener noreferrer' href='https://github.com/s0cketwrench/weaponize'>https://github.com/s0cketwrench/weaponize</a>): Outfit an Ubuntu 20.04 server with a bug bounty toolset",
-      "&nbsp; Writeups (<a target='_blank' rel='noopener noreferrer' href='https://github.com/s0cketwrench/writeups'>https://github.com/s0cketwrench/writeups</a>): A collection of writeups for miscellaneous hacking CTF's"
+      "&nbsp; Writeups (<a target='_blank' rel='noopener noreferrer' href='https://github.com/s0cketwrench/writeups'>https://github.com/s0cketwrench/writeups</a>): A collection of writeups for miscellaneous CTF's"
     ].join('</br>');
     addTextToResults(projects)
   }
@@ -81,9 +81,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
   var postIntro = function (){
     var welcomeInfo = [
-      "**** WELCOME TO SOCKET.OS ****",
-      "32 GB RAM SYSTEM - 11.8 TB FREE DISK SPACE",
-      "<b>READY.</b>",
+      "***** WELCOME TO SOCKET.OS *****",
+      "32GB RAM - 11TB FREE DISK SPACE",
+      "CLICK <a target='_blank' rel='noopener noreferrer' href='basic.html'>HERE</a> TO OPEN A BASIC PAGE",
+      "********* <b>SYSTEM READY</b> *********",
       "",
       "TYPE 'help' TO GET STARTED"
     ].join('<br>');
