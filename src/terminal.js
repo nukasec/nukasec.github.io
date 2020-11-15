@@ -35,17 +35,18 @@ document.addEventListener('DOMContentLoaded', function() {
     scrollToBottomOfResults();
   }
 
-  // Getting the list of keywords for help & posting it to the screen
+  /*** HELP ***/
   var postHelpList = function(){
-    // Array of all the help keywords
     var helpKeyWords = [
       "&nbsp; whoami - display information about this page and its creator",
       "&nbsp; projects - things I am working on you can look at",
-      "&nbsp; tools - list the scripts available for use"
+      "&nbsp; tools - list the scripts available for use",
+      "&nbsp; extras - wallpapers, configs, ebooks  etc.."
     ].join('<br>');
     addTextToResults(helpKeyWords);
   }
 
+  /*** WHOAMI ***/
   var postWhoAmI = function(){
     var whoAmI = [
       "&nbsp; NAME: Tyler P.",
@@ -58,6 +59,7 @@ document.addEventListener('DOMContentLoaded', function() {
     addTextToResults(whoAmI);
   }
 
+  /*** PROJECTS ***/
   var postProjects = function(){
     var projects = [
       "&nbsp; TaskIT (<a target='_blank' rel='noopener noreferrer' href='https://taskit.herokuapp.com'>https://taskit.herokuapp.com</a>): Ticket Management System built with Python & Flask",
@@ -67,6 +69,7 @@ document.addEventListener('DOMContentLoaded', function() {
     addTextToResults(projects)
   }
 
+  /*** TOOLS ***/
   var postToolsList = function(){
     var toolKeywords = [
       "&nbsp; open [domain] (ex. open s0cketwrench.github.io)",
@@ -79,6 +82,15 @@ document.addEventListener('DOMContentLoaded', function() {
     addTextToResults(toolKeywords);
   }
 
+  /*** EXTRAS ***/
+  var postExtras = function(){
+    var extrasList = [
+      "&nbsp; socketOS wallpaper (<a target='_blank' rel='noopener noreferrer' href='img/socketOS_wallpaper1.png'>download</a>)"
+    ].join('<br>');
+    addTextToResults(extrasList);
+  }
+
+  /*** MOTD ***/
   var postIntro = function (){
     var welcomeInfo = [
       "***** WELCOME TO SOCKET.OS *****",
@@ -128,6 +140,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
   var textReplies = function() {
     switch(textInputValueLowerCase){
+
+      case "extras":
+        clearInput();
+        postExtras();
+        break;
 
       case "tools":
         clearInput();
