@@ -19,7 +19,7 @@ body,html {
     fadeInAnimation 0.8s ease-in-out 1s forwards;
 }
 .userEnteredText{
-    color: #50d000;
+    color: #b33636;
     margin: 0;
     padding: 0;
     display: inline-block;
@@ -27,7 +27,7 @@ body,html {
    
 #terminalResultsCont{
     width:100%;
-    height:65vh;
+    height:70vh;
     padding: 12px;
     overflow-y: auto;
     resize: none;
@@ -35,12 +35,12 @@ body,html {
     font-size: 15px;
     line-height: 28px;
     display: block;
-    color: #50d000;
+    color: #cfcfcf;
 }
    
 
 #terminalResultsCont a{
-    color: #50d000;
+    color: #972e2e;
     text-decoration: none;
     font-weight: bold;
 }
@@ -53,10 +53,10 @@ body,html {
     background: black;
     display: block;
     border: none;
-    border: 1px solid #307e00;
+    border: 1px solid #b33636;
     border-radius: 0 0 4px 4px;
     width: 100%;
-    color: #50d000;
+    color: #cfcfcf;
     padding: 10px;
     font-size: 15px;
     outline: none;
@@ -67,18 +67,18 @@ body,html {
     max-width: 100%;
     height: auto;
     display: block;
-    margin: 1vh auto 0 auto;
+    margin: 2vh auto 0 auto;
 }
 
 #typingText {
   margin-top: 2%;
   width: 50%;
-  height: 49vw;
+  height: 50vw;
   font-size:15px;
   font-family:monospace;
   text-align:left;
   border: solid 1px #000000;
-  color:#50d000;
+  color:#cfcfcf;
   outline:none;
   resize:none;
   background-color:#000
@@ -87,7 +87,7 @@ body,html {
 /* SCROLLBAR */
 * {
     scrollbar-width: thin;
-    scrollbar-color: rgb(4, 134, 4) rgb(55, 85, 55);
+    scrollbar-color: #972e2e rgb(85, 55, 55);
 }
   
 /* Works on Chrome/Edge/Safari */
@@ -95,12 +95,12 @@ body,html {
   width: 12px;
 }
 *::-webkit-scrollbar-track {
-  background: rgb(55, 85, 55);
+  background: rgb(85, 55, 55);
 }
 *::-webkit-scrollbar-thumb {
-  background-color: rgb(55, 85, 55);
+  background-color: rgb(85, 55, 55);
   border-radius: 20px;
-  border: 3px solid rgb(4, 134, 4);
+  border: 3px solid #972e2e;
 }
 
 #basicBody{
@@ -108,12 +108,12 @@ body,html {
   font-family: 'Roboto Mono', monospace;
   width: 80%;
   display: block;
-  color: #50d000;
+  color:  #cfcfcf;
   font-size: 15px;
 }
 
 #basicBody a{
-  color: #50d000;
+  color:  #972e2e;
   text-decoration: none;
   font-weight: bold;
 }
