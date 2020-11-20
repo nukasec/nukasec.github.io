@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function() {
       "&nbsp; NAME: Tyler P.",
       "&nbsp; ALIAS: s0cketwrench",
       "&nbsp; LOCATION: United States",
-      "&nbsp; OCCUPATION: Software Engineer, Security Researcher",
+      "&nbsp; OCCUPATION: Software Engineer, Hardware Researcher",
       "&nbsp; EMAIL: <a href='mailto:contact@smokingcircuits.net'>contact@smokingcircuits.net</a>",
       "&nbsp; SOCIALS: <a target='_blank' rel='noopener noreferrer' href='https://twitter.com/s0cketwrench'>twitter</a> + <a target='_blank' rel='noopener noreferrer' href='https://github.com/s0cketwrench'>github</a>"
     ].join('<br>');
