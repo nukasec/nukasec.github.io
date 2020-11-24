@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function() {
       "&nbsp; NAME: Tyler P.",
       "&nbsp; ALIAS: s0cketwrench",
       "&nbsp; LOCATION: United States",
-      "&nbsp; OCCUPATION: Software Engineer, Hardware Researcher",
+      "&nbsp; OCCUPATION: Software Developer, Security Researcher",
       "&nbsp; EMAIL: <a href='mailto:contact@smokingcircuits.net'>contact@smokingcircuits.net</a>",
       "&nbsp; SOCIALS: <a target='_blank' rel='noopener noreferrer' href='https://twitter.com/s0cketwrench'>twitter</a> + <a target='_blank' rel='noopener noreferrer' href='https://github.com/s0cketwrench'>github</a>"
     ].join('<br>');
@@ -64,6 +64,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var projects = [
       "&nbsp; TaskIT (<a target='_blank' rel='noopener noreferrer' href='https://taskit.herokuapp.com'>https://taskit.herokuapp.com</a>): Ticket Management System built with Python & Flask",
       "&nbsp; Weaponize (<a target='_blank' rel='noopener noreferrer' href='https://github.com/s0cketwrench/weaponize'>https://github.com/s0cketwrench/weaponize</a>): Outfit an Ubuntu 20.04 server with a bug bounty toolset",
+      "&nbsp; Honeypot (<a target='_blank' rel='noopener noreferrer' href='http://cowrie.smokingcircuits.net'>http://cowrie.smokingcircuits.net</a>): An SSH honeypot I set up with a graphed database frontend.",
       "&nbsp; Writeups (<a target='_blank' rel='noopener noreferrer' href='https://github.com/s0cketwrench/writeups'>https://github.com/s0cketwrench/writeups</a>): A collection of writeups for miscellaneous CTF's"
     ].join('</br>');
     addTextToResults(projects)
@@ -93,10 +94,13 @@ document.addEventListener('DOMContentLoaded', function() {
   /*** MOTD ***/
   var postIntro = function (){
     var welcomeInfo = [
-      "***** WELCOME TO SOCKET.OS *****",
+      "",
+      "************** WELCOME TO SOCKET.OS **************",
+      "",
       "32GB RAM - 11TB FREE DISK SPACE",
       "CLICK <a target='_blank' rel='noopener noreferrer' href='basic.html'>HERE</a> TO OPEN A BASIC PAGE",
-      "********* <b>SYSTEM READY</b> *********",
+      "",
+      "****************** <b>SYSTEM READY</b> ******************",
       "",
       "TYPE 'help' TO GET STARTED"
     ].join('<br>');
@@ -226,4 +230,5 @@ document.addEventListener('DOMContentLoaded', function() {
   };
   
   postIntro();
+
 });
